@@ -48,7 +48,7 @@
                     // Temporary variable
                     t = sp * h * cA - st * sA;
 
-                // Calculate cordiantes of ascii char
+                // Calculate coordinates of ascii char
                 var x = Math.floor(width / 2 + (width / 4) * D *
                     (cp * h * cB - t * sB));
                 var y = Math.floor(height / 2 + (height / 4) * D *
